@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.uv/
+
+# Runtime data (downloaded by install.py — not committed)
+data/
+
+# User config (generated at runtime)
+vntts_config.json
+
+# Temp / output audio
+*.wav
+*.mp3
+!emotion_sounds/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

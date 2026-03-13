@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vn-tts-reader"
+version = "1.0.0"
+description = "Clipboard-driven TTS reader for Visual Novels using Piper, with automatic character voice assignment and emotion sound support."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "pygame>=2.5.0",
+    "pyperclip>=1.8.2",
+]
+
+[project.scripts]
+vn-tts-reader = "main:main"
+
+[tool.hatch.build.targets.wheel]
+include = [
+    "main.py",
+    "install.py",
+    "emotion_sounds/",
+    "approved_speakers.txt",
+]
+
+[tool.uv]
+dev-dependencies = []

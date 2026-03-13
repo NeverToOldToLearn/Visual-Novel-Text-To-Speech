@@ -1,0 +1,24 @@
+# approved_speakers.txt
+# Speaker IDs for en_US-libritts_r-medium (valid range: 1–902)
+#
+# These are the default speaker slots (Speaker1–Speaker10).
+# The IDs below are curated to lean female-first, with a male voice last.
+# Edit freely — one ID per line, or comma/space separated.
+# Run "Apply & Save" or "Apply & Restart" in the GUI after changes.
+#
+# Tip: Use the Override Speaker dropdown in the GUI to audition IDs
+#      before committing them here.
+
+# --- Female voices (Speaker1–Speaker9) ---
+10
+13
+25
+39
+73
+74
+153
+165
+185
+
+# --- Male fallback (Speaker10) ---
+721
