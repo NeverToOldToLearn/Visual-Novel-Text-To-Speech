@@ -36,7 +36,7 @@ The first 10 characters you encounter are automatically mapped to Speaker1–Spe
 pip install uv
 
 # Clone and install
-git clone https://github.com/NeverToOldToLearn/vn-tts-reader.git
+git clone https://github.com/NeverToOldToLearn/Visual-Novel-Text-To-Speech.git
 cd vn-tts-reader
 uv venv
 uv pip install .
@@ -48,7 +48,7 @@ uv run install.py
 ### Option B — plain pip
 
 ```bash
-git clone https://github.com/NeverToOldToLearn/vn-tts-reader.git
+git clone https://github.com/NeverToOldToLearn/Visual-Novel-Text-To-Speech.git
 cd vn-tts-reader
 python -m venv .venv
 .venv\Scripts\activate
